@@ -1,5 +1,5 @@
 Requirements:
-Python 3.10.2
+Python 3.10.2,
 Django 4.0.3
 
 Clone the repository and run the following commands in the terminal:
