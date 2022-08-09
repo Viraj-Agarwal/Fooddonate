@@ -1,0 +1,630 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Snacks Restaurants Category Flat Bootstrap Responsive Web Template | Home :: W3layouts</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Snacks Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="{%  static '1css/bootstrap.css' %}">
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="{%  static '1css/smoothbox.css' %}" type='text/css' media="all" />
+	<!-- gallery light box -->
+	<link rel="stylesheet" href="{%  static '1css/1style.css' %}" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="{%  static '1css/fontawesome-all.css' %}">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="{%  static '//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext' %}"
+	    rel="stylesheet">
+	<link href="/{%  static '/fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext' %}"
+	    rel="stylesheet">
+	<!-- //Web-Fonts -->
+
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light py-4">
+			<div class="container">
+				<h1>
+					<a class="navbar-brand" href="index.html">
+						<i class="fas fa-utensils"></i>Snacks
+					</a>
+				</h1>
+				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<ul class="navbar-nav mx-auto text-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link scroll" href="#about">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+							    aria-haspopup="true" aria-expanded="false">
+								Pages
+							</a>
+							<div class="dropdown-menu text-lg-left text-center" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item scroll" href="#services">Services</a>
+								<a class="dropdown-item scroll" href="#specials">Specials</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item scroll" href="#gallery">Gallery</a>
+							</div>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link scroll" href="#contact">Contact Us</a>
+						</li>
+					</ul>
+					<div class="forms-w3ls-agilesm text-center mt-lg-0 mt-4">
+						<ul>
+							<li class="login-list-w3ls d-inline border-right pr-3 mr-3">
+								<a href="#" class="text-white" data-toggle="modal" data-target="#exampleModalCenter1">Login</a>
+							</li>
+							<li class="login-list-w3ls d-inline">
+								<a href="#" class="text-white" data-toggle="modal" data-target="#exampleModalCenter2">Register</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- login -->
+	<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-sm-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Login Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>Your Name</label>
+								<input type="text" class="form-control" name="name" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Login</button>
+							<p class="text-center pb-4">
+								<a href="#">Forgot your password?</a>
+							</p>
+							<p class="text-center pb-4 create-w3ls">
+								Don't have an account?
+								<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">Create one now</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //login -->
+	<!-- register -->
+	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-sm-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Register Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>Your Name</label>
+								<input type="text" class="form-control" name="name" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Email</label>
+								<input type="email" class="form-control" name="email" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" id="password1" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Confirm Password</label>
+								<input type="password" class="form-control" name="password" id="password2" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Register</button>
+							<p class="text-center pb-4">
+								<a href="#">By clicking Register, I agree to your terms</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //register -->
+	<!-- //header -->
+
+	<!-- banner -->
+	<div class="callbacks_container">
+		<ul class="rslides" id="slider3">
+			<li>
+				<div class="slider-info bg1">
+					<div class="w3l-overlay">
+						<div class="banner-text text-center container">
+							<h3 class="text-white mb-md-4 mb-3">Come to the luxurious 
+								<span>Tasty Snacks</span>
+							</h3>
+							<p class="movetxt text-white mb-4">Find Delivery Outlet near you</p>
+							<div class="search-agile">
+								<form action="#" method="post">
+									<input type="search" name="search" placeholder="Search here..." required="">
+									<input type="submit" value="Search">
+									<div class="clearfix"> </div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="slider-info bg2">
+					<div class="w3l-overlay">
+						<div class="banner-text text-center container">
+							<h3 class="text-white mb-md-4 mb-3">Come to the luxurious 
+								<span>Tasty Snacks</span>
+							</h3>
+							<p class="movetxt text-white mb-4">Find Delivery Outlet near you</p>
+							<div class="search-agile">
+								<form action="#" method="post">
+									<input type="search" name="search" placeholder="Search here..." required="">
+									<input type="submit" value="Search">
+									<div class="clearfix"> </div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- //banner -->
+
+	<!-- about -->
+	<div class="about py-5" id="about">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="title text-center text-dark mb-sm-5 mb-4">
+				<span>Welcome to our Snacks</span> world's no.1 tasty food</h3>
+			<div class="row about-bottom-w3l text-center pt-lg-5">
+				<div class="col-sm-6 about-grid">
+					<div class="about-grid-main">
+						<img src="{%  static '1images/a1.jpg' %}" alt="" class="img-fluid">
+						<h4 class="mb-3">Clean & Continental Place</h4>
+						<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+						<a href="#" class="button-w3ls mt-4" data-toggle="modal" data-target="#exampleModalCenter1">Read More
+							<i class="fas fa-long-arrow-alt-right ml-3"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 about-grid mt-sm-0 mt-4">
+					<div class="about-grid-main">
+						<img src="{%  static '1images/a2.jpg' %}" alt="" class="img-fluid">
+						<h4 class="mb-3">100% Healthy Food</h4>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+						<a href="#" class="button-w3ls mt-4" data-toggle="modal" data-target="#exampleModalCenter1">Read More
+							<i class="fas fa-long-arrow-alt-right ml-3"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+
+	<!-- services -->
+	<div class="w3ls-middle pt-5" id="services">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="title text-center text-dark mb-sm-5 mb-4">
+				<span>The great advantages</span> of a hotel is that it is a refuge from home life</h3>
+			<div class="row pt-lg-5">
+				<div class="col-lg-6 text-center">
+					<img src="{%  static '1images/3.png' %}" alt="" class="img-fluid chef-img">
+				</div>
+				<div class="col-lg-4 mt-lg-0 mt-4">
+					<div class="service1-wthree">
+						<h4>1</h4>
+						<h6 class="text-dark mt-3 mb-2">Meal Delivery</h6>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="service1-wthree my-4">
+						<h4>2</h4>
+						<h6 class="text-dark mt-4 mb-2">Catering</h6>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="service1-wthree">
+						<h4>3</h4>
+						<h6 class="text-dark mt-4 mb-2">Events</h6>
+						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="offset-lg-2"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+
+	<!-- middle section one -->
+	<div class="w3ls-middle-works py-5 text-center" id="specials">
+		<div class="py-xl-5 py-lg-3">
+			<h3 class="title text-center text-dark mb-lg-5">
+				<span>Fresh, organic ingredients,</span>Carefully prepared, Eat green for a reason.</h3>
+			<a href="#" class="button-w3ls my-4 text-center" data-toggle="modal" data-target="#exampleModalCenter1">Read more about Specials
+				<i class="fas fa-long-arrow-alt-right ml-3"></i>
+			</a>
+			<div class="d-flex special-agiles text-left">
+				<div class="col-md-6 grids-w3ls-left">
+					<p class="mb-2 text-white">Our Specials</p>
+					<h4 class="title text-dark mb-md-4">Carefully prepared, Fresh, organic ingredients.</h4>
+					<a href="#" class="button-w3ls mt-4" data-toggle="modal" data-target="#exampleModalCenter1">Read More
+						<i class="fas fa-long-arrow-alt-right ml-3"></i>
+					</a>
+				</div>
+				<div class="col-md-6 grids-w3ls-right">
+					<img src="{%  static '1images/middle.jpg' %}" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //middle section one -->
+
+	<!-- middle section two -->
+	<div class="agile-wthree-works py-5" id="some">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row">
+				<div class="grids-w3ls-right-2 offset-lg-7 offset-sm-4">
+					<h4 class="title text-dark mb-sm-5 mb-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+						fugit</h4>
+					<p class="mt-4">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad reprehenderit qui in
+						ea voluptate velit
+						esse </p>
+					<a href="#" class="button-w3ls mt-5" data-toggle="modal" data-target="#exampleModalCenter1">Read More
+						<i class="fas fa-long-arrow-alt-right ml-3"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //middle section two -->
+
+	<!-- gallery -->
+	<div class="gallery pt-5" id="gallery">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row gallery_grids">
+				<div class="col-4 agile-gallery_grid_main">
+					<div class="gallery-img-grid gallery_grid1 hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g1.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g1.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="gallery-img-grid hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g2.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g2.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="gallery-img-grid hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g3.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g3.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 agile-gallery_grid_main">
+					<div class="gallery-img-grid hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g7.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g7.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="gallery-img-grid hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g8.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g8.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 agile-gallery_grid_main">
+					<div class="gallery-img-grid gallery_grid1 hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g4.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g4.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="gallery-img-grid hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g5.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g5.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="gallery-img-grid hover14 column">
+						<div class="gallery_effect">
+							<a href="{%  static '1images/g6.jpg' %}" class="sb" title="quis nostrud exercitation ullamco laboris quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum">
+								<figure>
+									<img src="{%  static '1images/g6.jpg' %}" alt=" " class="img-fluid" />
+								</figure>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //gallery -->
+
+	<!-- contact -->
+	<div class="address py-5" id="contact">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="title text-center text-dark mb-sm-5 mb-4">
+				<span>Contact US</span> world's no.1 tasty food</h3>
+			<div class="row address-row pt-lg-5">
+				<div class="col-lg-6">
+					<div class="address-right p-sm-5 p-4">
+						<div class="address-info wow fadeInRight animated" data-wow-delay=".5s">
+							<h4 class="mb-3">Address</h4>
+							<p>123 San Sebastian, Hill Towers 4567,
+								<span>New York City, USA</span>
+							</p>
+						</div>
+						<div class="address-info address-mdl wow fadeInRight animated my-sm-5 my-4" data-wow-delay=".7s">
+							<h4 class="mb-3">Phone </h4>
+							<p>+222 111 333 4444</p>
+							<p>+222 111 333 5555</p>
+						</div>
+						<div class="address-info agileits-info wow fadeInRight animated" data-wow-delay=".6s">
+							<h4 class="mb-3">Mail</h4>
+							<p>
+								<a href="{%  static 'mailto:example@mail.com' %}"> mail@example.com</a>
+							</p>
+							<p>
+								<a href="{%  static 'mailto:example@mail.com' %}"> mail2@example.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 address-left wow agile fadeInLeft animated mt-lg-0 mt-5" data-wow-delay=".5s">
+					<div class="address-grid p-sm-5 p-4">
+						<h4 class="wow fadeIndown animated mb-3" data-wow-delay=".5s">Get In Touch</h4>
+						<form action="#" method="post">
+							<div class="form-group">
+								<input type="text" placeholder="Name" name="name" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<input type="email" placeholder="Email" name="email" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<textarea placeholder="Message"  name="Message" class="form-control" required=""></textarea>
+							</div>
+							<input type="submit" value="SEND">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//contact-->
+
+	<!-- footer -->
+	<footer class="pt-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row footer-grids py-4">
+				<div class="col-lg-4 footer-grid text-left">
+					<div class="footer-logo">
+						<h2 class="mb-3">
+							<a class="logo text-white" href="index.html">
+								<i class="fas fa-utensils mr-2"></i>Snacks</a>
+						</h2>
+					</div>
+				</div>
+				<div class="col-lg-2 col-6  footer-grid my-lg-0 my-4">
+					<h3 class="mb-sm-4 mb-3 pb-3">Home</h3>
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html">Index</a>
+						</li>
+						<li class="my-2">
+							<a class="scroll" href="#about">About</a>
+						</li>
+						<li>
+							<a class="scroll" href="#services">Services</a>
+						</li>
+						<li class="my-2">
+							<a class="scroll" href="#gallery">Gallery</a>
+						</li>
+						<li>
+							<a class="scroll" href="#contact">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid my-lg-0 my-4">
+					<h3 class="mb-sm-4 mb-3 pb-3"> Navigation </h3>
+					<ul class="list-unstyled">
+						<li>
+							<a class="scroll" href="#services">Advantages</a>
+						</li>
+						<li class="my-2">
+							<a class="scroll" href="#specials">Specials</a>
+						</li>
+						<li>
+							<a class="scroll" href="#some">Some More</a>
+						</li>
+						<li class="my-2">
+							<a class="scroll" href="#gallery">Gallery</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid">
+					<h3 class="mb-sm-4 mb-3 pb-3"> Company</h3>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">Link Here</a>
+						</li>
+						<li class="my-2">
+							<a href="#">Link Here</a>
+						</li>
+						<li>
+							<a href="#">Link Here</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid footer-contact">
+					<h3 class="mb-sm-4 mb-3 pb-3"> Contact Us</h3>
+					<ul class="list-unstyled">
+						<li>
+							+01(24) 8543 8088
+						</li>
+						<li class="mt-2">
+							<a href="{%  static 'mailto:info@example.com' %}">info@example.com</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- copyright -->
+		<div class="copy_right">
+			<p class="text-center text-white py-sm-4 py-3">© 2018 Snacks. All rights reserved | Design by
+				<a href="{%  static 'http://w3layouts.com/' %}">W3layouts</a>
+			</p>
+
+		</div>
+		<!-- //copyright -->
+	</footer>
+	<!-- //footer -->
+
+
+	<!-- Js files -->
+	<!-- JavaScript -->
+	<script src="{%  static '1js/jquery-2.2.3.min.js' %}"></script>
+	<!-- Default-JavaScript-File -->
+
+	<!-- banner slider -->
+	<script src="{%  static '1js/responsiveslides.min.js' %}"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 4
+			$("#slider3").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+
+		});
+	</script>
+	<!-- //banner slider -->
+
+	<!-- password-script -->
+	<script>
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
+
+	<!-- gallery light box -->
+	<script src="{%  static '1js/smoothbox.jquery2.js' %}"></script>
+	<!-- //gallery light box -->
+
+	<!-- smooth scrolling -->
+	<script src="{%  static '1js/SmoothScroll.min.js' %}"></script>
+	<!-- //smooth scrolling -->
+
+	<!-- move-top -->
+	<script src="{%  static '1js/move-top.js' %}"></script>
+	<!-- easing -->
+	<script src="{%  static '1js/easing.js' %}"></script>
+	<!--  necessary snippets for few javascript files -->
+	<script src="{%  static '1js/snacks.js' %}"></script>
+
+	<script src="{%  static '1js/bootstrap.js' %}"></script>
+	<!-- Necessary-JavaScript-File-For-Bootstrap -->
+	<!-- //Js files -->
+
+</body>
+
+</html>

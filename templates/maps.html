@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Places Search Box</title>
+    <script src="{%  static '1js/mapsjs.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{%  static 'scss/mapscss.css' %}" >
+  </head>
+  <body>
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />
+    <div id="map"></div>
+    <br><br><br><br>
+    <ul>
+    <li>Latitude: <span id="lat"></span></li>
+    <li>Longitude: <span id="lon"></span></li>
+    <li>Distance between your location and Coimbatore Railway Station: <span id="rai"></span> km</li>
+    </ul>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRrR7R4MRw0DOpJio9QgXJ6PzV58vtjJ4&callback=initAutocomplete&libraries=places,geometry&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
