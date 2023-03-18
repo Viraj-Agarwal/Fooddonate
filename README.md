@@ -4,11 +4,11 @@
 
 ### Clone the repository and run the following commands in the terminal:
 
-'python manage.py collectstatic'
+`python manage.py collectstatic`
 
-'python manage.py makemigrations'
+`python manage.py makemigrations`
 
-'python manage.py runserver'
+`python manage.py runserver`
 
 ## Click on the local host port to access the Web application!!
 
